@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Телефоны</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      border: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .page-title {
+      margin: 30px 0;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">главная</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="televisions.html">Телевизоры</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="laptops.html">Ноутбуки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="phones.html">Телефоны</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="parts.html">Запчасти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h2 class="page-title">Телефоны</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6643293c00fc3c75641ef2bd_66432e71e049ce4b306e20a2/scale_1200" class="card-img-top" alt="Телефон 1">
+          <div class="card-body">
+            <h5 class="card-title">Vivo X100 Ultra</h5>
+            <p class="card-text">Флагманский смартфон с передовой камерой и высокой производительностью.</p>
+            <p>Цена 50 000 сом</p>
+            <a href="#" class="btn btn-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://ichip.ru/images/cache/2022/12/15/q90_673512_97659a5adeaf77c0572f00fd8.png" class="card-img-top" alt="Телефон 2">
+          <div class="card-body">
+            <h5 class="card-title">Moto G53</h5>
+            <p class="card-text">Компактный и стильный смартфон с долгим временем работы.</p>
+            <p>Цена 20 000 сом</p>
+            <a href="#" class="btn btn-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.superplanshet.ru/images/Zoji_Z11_3.jpg" class="card-img-top" alt="Телефон 3">
+          <div class="card-body">
+            <h5 class="card-title">Zoji_Z11_3</h5>
+            <p class="card-text">Универсальный смартфон с ярким экраном и мощным аккумулятором.</p>
+            <p>цена 40 000 сом</p>
+            <a href="#" class="btn btn-primary">Купить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
